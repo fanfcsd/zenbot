@@ -1,61 +1,10 @@
 <context>
 
-<input pattern="*"> 
-<output value="Привет"/> 
-</input>
- 
- 
-   <input pattern="Что ты умеешь?">
-<output value="Я умею: включать и выключать свет, управлять телевизором и еще могу подсказать температуру"/> 
-</input>
+    <sample>
+        <item value="Кто такая Алиса"/>
+        <item value="Что такое бот"/>
+    </sample>
 
-<input pattern="Включи телевизор"> 
-<output>
-  <item>
-    <![CDATA[
-      <h3>Here is your name</h3>
-      <a href="somewebsite.com">$UserName</a>
-    ]]>
-  </item>
-  <item>
-    <![CDATA[
-      <h3>Well, there is your name</h3>
-      <a href="somewebsite.com">$UserName</a>
-    ]]>
-  </item>
-</output> 
-</input>
-
-
-<input pattern="Выключи телевизор"> 
-<output value="Хорошо, выключаю"/> 
-</input>
-
-
-<input pattern="Выключи свет"> 
-<output value="Выполняю"/> 
-</input>
-
-
-<input pattern="Включи свет"> 
-<output value="Окей"/> 
-</input>
-
-
-
-
-<sample>
-  <item value="Что я умею?"/>
-  <item value="Список команд"/>
-</sample>
-  
-  
-
-  
-  
-  
-    
-    ==============================
     <input pattern="* (привет*|здравствуй*) *">
         <output if="full($UserName)">
             <item value="Привет, $UserName! Рада снова видеть тебя!"/>
@@ -63,7 +12,7 @@
         </output>
 
         <context if="empty($UserName)" id="name">
-            <output value="Привет! Меня зовут Алиса! Я буду помогать тебе по дому. Скажи как тебя зовут?"/>
+            <output value="Привет! Меня зовут Алиса! А это - демонстрация моего навыка, созданного с помощью платформы zenbot. Как тебя зовут?"/>
 
             <input pattern="$Text">
                 <var name="UserName" value="cap($Text)" scope="user"/>
