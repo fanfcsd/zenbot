@@ -1,4 +1,8 @@
 <context>
+    
+    <input pattern="*"> 
+<output value="Привет"/> 
+</input>
 
     <sample>
         <item value="Кто такая Алиса"/>
@@ -12,7 +16,7 @@
         </output>
 
         <context if="empty($UserName)" id="name">
-            <output value="Привет! Меня зовут Алиса! А это - демонстрация моего навыка, созданного с помощью платформы zenbot. Как тебя зовут?"/>
+            <output value="Привет! Меня зовут Алиса! Я буду помогать тебе по дому. Скажи как тебя зовут?"/>
 
             <input pattern="$Text">
                 <var name="UserName" value="cap($Text)" scope="user"/>
