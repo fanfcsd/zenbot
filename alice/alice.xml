@@ -24,18 +24,17 @@
 </input>
 
 
-   <input pattern="(hi|hello) *">
-  <output value="Hi! What is your favorite color?"/>
+<sample lang="ru">
+  <item value="Белый"/>
+  <item value="Синий"/>
+  <item value="Красный"/>
+</sample>
 
-  <context>
-    <input pattern="* $Color"/>
-    <sample>
-      <item>Green</item>
-      <item>Blue</item>
-      <item>Red</item>
-    </sample>
-  </context>
-</input>
+<sample>
+  <item value="White"/>
+  <item value="Blue"/>
+  <item value="Red"/>
+</sample>
 
     
     
