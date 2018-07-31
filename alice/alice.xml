@@ -1,7 +1,7 @@
 <context>
 
 <input pattern="*"> 
-<output value="Например привет"/> 
+<output value="Привет"/> 
 </input>
 
     <sample>
@@ -16,7 +16,7 @@
         </output>
 
         <context if="empty($UserName)" id="name">
-            <output value="Привет! Меня зовут Алиса! А как тебя зовут?"/>
+            <output value="Привет! Меня зовут Алиса! Я буду помогать тебе по дому. Скажи как тебя зовут?"/>
 
             <input pattern="$Text">
                 <var name="UserName" value="cap($Text)" scope="user"/>
