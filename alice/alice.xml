@@ -21,19 +21,23 @@
  <output>
     <item>Выполняю</item>
     <item>Окей</item>
+     <item>Окей, выключаю</item>
     <item>Хорошо</item>
      <item>Ладно</item>
      <item>Л+адненько</item>
+     <item>Как скажешь</item>
   </output>
     </input>
     
-    <input pattern="Выключи свет"> 
+    <input pattern="Включи свет"> 
  <output>
     <item>Выполняю</item>
     <item>Окей</item>
     <item>Хорошо</item>
+     <item>Хорошо, выключаю</item>
      <item>Ладно</item>
      <item>Л+адненько</item>
+     <item>Как скажешь</item>
   </output> 
     </input>
     
@@ -44,6 +48,7 @@
     <item>Хорошо</item>
      <item>Ладно</item>
      <item>Л+адненько</item>
+          <item>Как скажешь</item>
   </output> 
     </input>
     
@@ -54,6 +59,7 @@
     <item>Хорошо</item>
      <item>Ладно</item>
      <item>Л+адненько</item>
+          <item>Как скажешь</item>
   </output>
     </input>
 
