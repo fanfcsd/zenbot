@@ -42,11 +42,7 @@
 </input>
 
 
-<sample lang="ru">
- <item value="Управление светом"/>
-  <item value="Управление телевизором"/>
-  <item value="Погода в доме"/>
-</sample>
+
 
 <sample>
   <item value="Что я умею?"/>
