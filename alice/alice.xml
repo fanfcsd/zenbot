@@ -13,9 +13,49 @@
 </input>
 
     <sample>
-        <item value="Кто такая Алиса"/>
-        <item value="Что такое бот"/>
+        <item value="Что я умею?"/>
+        <item value="Мои команды"/>
     </sample>
+    
+    <input pattern="Выключи свет"> 
+ <output>
+    <item>Выполняю</item>
+    <item>Окей</item>
+    <item>Хорошо</item>
+     <item>Ладно</item>
+     <item>Л+адненько</item>
+  </output>
+    </input>
+    
+    <input pattern="Выключи свет"> 
+ <output>
+    <item>Выполняю</item>
+    <item>Окей</item>
+    <item>Хорошо</item>
+     <item>Ладно</item>
+     <item>Л+адненько</item>
+  </output> 
+    </input>
+    
+        <input pattern="Выключи телевизор"> 
+ <output>
+    <item>Выполняю</item>
+    <item>Окей</item>
+    <item>Хорошо</item>
+     <item>Ладно</item>
+     <item>Л+адненько</item>
+  </output> 
+    </input>
+    
+        <input pattern="Включи телевизор"> 
+ <output>
+    <item>Выполняю</item>
+    <item>Окей</item>
+    <item>Хорошо</item>
+     <item>Ладно</item>
+     <item>Л+адненько</item>
+  </output>
+    </input>
 
     <input pattern="* (привет*|здравствуй*) *">
         <output if="full($UserName)">
