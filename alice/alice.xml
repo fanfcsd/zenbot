@@ -1,7 +1,16 @@
 <context>
 
 <input pattern="*"> 
-<output value="* (привет*|здравствуй*) *"/> 
+<output value="Привет"/> 
+</input>
+
+<input pattern="Включи телевизор"> 
+<output value="Окей, включаю"/> 
+</input>
+
+
+<input pattern="Выключи телевизор"> 
+<output value="Хорошо, выключаю"/> 
 </input>
 
     <sample>
