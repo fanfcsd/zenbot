@@ -1,5 +1,7 @@
 <context>
 
+<input pattern="*"> <output value="* (привет*|здравствуй*) *"/> </input>
+
     <sample>
         <item value="Кто такая Алиса"/>
         <item value="Что такое бот"/>
