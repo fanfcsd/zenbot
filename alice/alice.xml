@@ -13,7 +13,6 @@
            <get url="http://192.168.88.88/ir?code=50153655" var="ir">
             </get>
             <output value="ок"/> 
-            </output>
         </input>
     
     
