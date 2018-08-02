@@ -8,6 +8,13 @@
   </output>
 </input>
     
+    
+    <input pattern="Включи">
+  <get url="http://192.168.88.88/ir?code=50153655" var="Weather">
+  </get>
+    
+    
+    
     <input pattern="*"> 
 <output value="Привет"/> 
 </input>
