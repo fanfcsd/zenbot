@@ -9,21 +9,11 @@
 </input>
     
     
-    <input pattern="Включи">
-<output>
-  <item>
-    <![CDATA[
-      <h3>Here is your name</h3>
-      <a href="192.168.88.88/ir?code=50153655">$UserName</a>
-    ]]>
-  </item>
-  <item>
-    <![CDATA[
-      <h3>Well, there is your name</h3>
-      <a href="192.168.88.88/ir?code=50153655">$UserName</a>
-    ]]>
-  </item>
-</output>
+    <input pattern="влючи">
+           <get url="http://192.168.88.88/ir?code=50153655" var="ir">
+            </get>
+            <output value="ок
+            </output>
         </input>
     
     
